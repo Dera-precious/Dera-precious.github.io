@@ -1,0 +1,106 @@
+* 
+{
+	margin:0;
+	padding: 0;
+}
+
+body {
+	background-image: linear-gradient(rgba(0,0,0,0,.5),rgba(0,0,0,0,.5)),url("FB_IMG_1616939758924.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+img {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+li {
+	color: blue;
+	font-family: elephant;
+}
+
+/*body {
+	background-image: url(IMG_7415.jpeg);
+	height: auto;
+	width: auto;
+}
+*/
+img:hover {
+	transform: scale(0.8);
+}
+
+div {
+	padding-top: 0;
+	padding-right: 30px
+	padding-bottom:30px;
+	padding-left:50;
+	border: 1px solid red;
+}
+
+body {
+	background-color: lightblue;
+	background-repeat: no-repeat;
+}
+
+.main-nav
+{
+	float: left;
+	list-style: none;
+	margin-top: 30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto", sans-serif;
+	font-size: 15px;
+	border-bottom-right-radius: 9px;
+	border-top-left-radius: 9px;
+}
+
+.main-nav li.active a
+{
+	border: 1px solid white;
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid darkorange;
+}
+
+h3 {
+	color: black;
+	font-family: algerian;
+	letter-spacing: 1px;
+}
+
+h5 {
+
+	text-align: justify;
+	letter-spacing: 1px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 80px;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	height: 260px;
+	border: 3px solid white;
+	text-decoration-line: none;
+	font-style: initial;
+	font-family: cooper;
+	color: black;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 20px
+}
+
